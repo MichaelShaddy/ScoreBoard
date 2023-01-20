@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/png" href="images/soccer-icon.png">
+        <title>ScoreBoard</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h3>HOME</h3>
+                <div class="home-sb">
+                    <span id="home-count-el">0</span>
+                </div>
+                <div class="sb-buttons">
+                    <button id="sb-button" onclick="homePlusOne()">+1</button>
+                    <button id="sb-button" onclick="homePlusTwo()">+2</button>
+                    <button id="sb-button" onclick="homePlusThree()">+3</button>
+                </div>
+                <div id="reset-btn">
+                    <button id="reset" onclick="homeReset()">RESET</button>
+                </div>
+            </div>
+            <div class="away">
+                <h3>AWAY</h3>
+                <div class="away-sb">
+                    <span id="away-count-el">0</span>
+                </div>
+                <div class="sb-buttons">
+                    <button id="sb-button" onclick="awayPlusOne()">+1</button>
+                    <button id="sb-button" onclick="awayPlusTwo()">+2</button>
+                    <button id="sb-button" onclick="awayPlusThree()">+3</button>
+                </div>
+                <div id="reset-btn">
+                    <button id="reset" onclick="awayReset()">RESET</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
