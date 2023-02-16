@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url("font/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    background-image: url('images/stadium.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background-color: #ce8282a4;
+    border: 5px solid black;
+    border-radius: 30px;
+    font-family: 'Cursed Timer ULil' , Verdana, Geneva, Tahoma, sans-serif; 
+    position: relative;
+    top: 200px;
+    Left: 200px;
+}
+
+.home {
+    color: black;
+    text-align: center;
+}
+
+.home-sb {
+
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    border-radius: 15px;
+    
+}
+
+#home-count-el {
+width: 117px;
+height: 120px;
+left: 100px;
+top: 125px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+color: #F94F6D;
+
+}
+
+.away {
+    color: black;
+    text-align: center;
+}
+
+.away-sb {
+
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+#away-count-el {
+    width: 117px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.sb-buttons {
+    margin-top: 30px;
+    display: flex;
+}
+
+#sb-button {
+    padding: 12px;
+    margin: 0 5px 15px 1px;
+    background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 5px;
+    border-color: black;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+#reset-btn {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#reset {
+    margin-bottom: 25px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 5px;
+    border-color: black;
+    cursor: pointer;
+    font-weight: 800;
+}
